@@ -31,7 +31,8 @@ body {
 
 /* Typography */
 
-h2 {
+h1 {
+    font-size: 1.5em;
     font-weight: 900;
 }
 
@@ -49,6 +50,7 @@ div > p {
 .card {
     width: min(90%, 35ch);
     height: 600px;
+    margin: 0 auto;
     border-radius: 1em;
     background-color: var(--clr-neutral-very-pale-blue);
     text-align: center;
@@ -83,7 +85,7 @@ div > p {
     text-align: left;
 }
 
-.plan > div > h4 {   
+.plan > div > h2 {   
     margin: 0;
     font-size: 0.9em;
     font-weight: 900;
