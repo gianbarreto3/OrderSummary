@@ -20,6 +20,9 @@ body {
     height: 100vh;
     margin: 0;
     background-color: var(--clr-primary-pale-blue);
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     font-family: var(--ff-primary);
 }
 
@@ -160,5 +163,12 @@ div > p {
 @media screen and (max-width: 300px) {
     body {
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-position-y: -30%;
     }
 }
